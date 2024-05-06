@@ -4,7 +4,7 @@ def timer_with_beep(number)
 
   end_time = Time.now.strftime('%H:%M')
   puts "Time's up at #{end_time}!"
-  `say "Time's up"`
+  `say "Let's go"`
 end
 
 def truncate_if_no_float(number)
